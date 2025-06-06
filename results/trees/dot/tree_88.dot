@@ -1,0 +1,12 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="texture_worst<25.7200" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=-0.0341" ]
+
+    2 [ label="leaf=0.0290" ]
+}

@@ -1,0 +1,72 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="perimeter_worst<113.2000" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="concave points_mean<0.0518" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="area_se<45.3800" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="texture_worst<32.9400" ]
+    7 -> 13 [label="yes" color="#FF0000"]
+    7 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="fractal_dimension_se<0.0013" ]
+    13 -> 19 [label="yes" color="#FF0000"]
+    13 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="leaf=-0.1061" ]
+
+    20 [ label="leaf=-0.3714" ]
+
+    14 [ label="texture_mean<27.5400" ]
+    14 -> 21 [label="yes" color="#FF0000"]
+    14 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=0.0515" ]
+
+    22 [ label="leaf=-0.2445" ]
+
+    8 [ label="leaf=0.1753" ]
+
+    4 [ label="texture_worst<25.4400" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="radius_worst<15.8900" ]
+    9 -> 15 [label="yes" color="#FF0000"]
+    9 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=-0.3032" ]
+
+    16 [ label="leaf=0.0599" ]
+
+    10 [ label="leaf=0.3627" ]
+
+    2 [ label="texture_mean<14.9300" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="leaf=-0.0839" ]
+
+    6 [ label="area_worst<819.7000" ]
+    6 -> 11 [label="yes" color="#FF0000"]
+    6 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="leaf=0.0289" ]
+
+    12 [ label="fractal_dimension_worst<0.0649" ]
+    12 -> 17 [label="yes" color="#FF0000"]
+    12 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=0.0696" ]
+
+    18 [ label="leaf=0.4314" ]
+}

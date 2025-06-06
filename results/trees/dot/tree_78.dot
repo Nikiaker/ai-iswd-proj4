@@ -1,0 +1,12 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="compactness_se<0.0177" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=0.0369" ]
+
+    2 [ label="leaf=-0.0325" ]
+}

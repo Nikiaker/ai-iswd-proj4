@@ -1,0 +1,24 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="texture_worst<21.8400" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=-0.1205" ]
+
+    2 [ label="smoothness_mean<0.0904" ]
+    2 -> 3 [label="yes" color="#FF0000"]
+    2 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="leaf=-0.0524" ]
+
+    4 [ label="area_worst<688.9000" ]
+    4 -> 5 [label="yes" color="#FF0000"]
+    4 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="leaf=0.0024" ]
+
+    6 [ label="leaf=0.1645" ]
+}

@@ -1,0 +1,42 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="concave points_worst<0.1456" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="compactness_se<0.0120" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="concavity_se<0.0127" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-0.1015" ]
+
+    8 [ label="leaf=0.1838" ]
+
+    4 [ label="concave points_mean<0.0518" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="area_mean<687.3000" ]
+    9 -> 11 [label="yes" color="#FF0000"]
+    9 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="leaf=-0.2334" ]
+
+    12 [ label="leaf=-0.0495" ]
+
+    10 [ label="leaf=0.0051" ]
+
+    2 [ label="radius_worst<16.3100" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="leaf=0.0087" ]
+
+    6 [ label="leaf=0.2139" ]
+}

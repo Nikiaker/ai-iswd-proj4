@@ -1,0 +1,48 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="concave points_worst<0.1112" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="area_mean<693.7000" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="symmetry_worst<0.2048" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-0.0481" ]
+
+    8 [ label="texture_worst<32.9400" ]
+    8 -> 13 [label="yes" color="#FF0000"]
+    8 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="leaf=-0.2939" ]
+
+    14 [ label="leaf=-0.0841" ]
+
+    4 [ label="leaf=0.0712" ]
+
+    2 [ label="area_worst<725.9000" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="smoothness_mean<0.1084" ]
+    5 -> 9 [label="yes" color="#FF0000"]
+    5 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=-0.2309" ]
+
+    10 [ label="leaf=0.1219" ]
+
+    6 [ label="texture_worst<19.9000" ]
+    6 -> 11 [label="yes" color="#FF0000"]
+    6 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="leaf=-0.0631" ]
+
+    12 [ label="leaf=0.2955" ]
+}

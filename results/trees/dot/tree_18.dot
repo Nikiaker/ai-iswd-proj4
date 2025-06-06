@@ -1,0 +1,36 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="UD" ]
+
+    0 [ label="perimeter_worst<120.4000" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="texture_mean<21.5800" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="smoothness_mean<0.1078" ]
+    3 -> 5 [label="yes" color="#FF0000"]
+    3 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="symmetry_mean<0.1621" ]
+    5 -> 9 [label="yes" color="#FF0000"]
+    5 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=-0.0190" ]
+
+    10 [ label="leaf=-0.2119" ]
+
+    6 [ label="leaf=0.0297" ]
+
+    4 [ label="smoothness_mean<0.0904" ]
+    4 -> 7 [label="yes" color="#FF0000"]
+    4 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-0.0303" ]
+
+    8 [ label="leaf=0.1342" ]
+
+    2 [ label="leaf=0.1531" ]
+}
