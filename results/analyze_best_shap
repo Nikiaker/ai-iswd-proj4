@@ -1,0 +1,32 @@
+Wariant ID = 865137, model przewiduje klasę = B
+Top 5 cech wg |SHAP| (wartość SHAP, dodatnia ⇒ pcha w kierunku 'M', ujemna ⇒ pcha w kierunku 'B'):
+                feature  shap_value
+0         texture_worst   -1.783403
+1               area_se   -0.953724
+2            area_worst   -0.896503
+3  concave points_worst   -0.823026
+4   concave points_mean   -0.815349
+
+--------------------------------------------------------------------------------
+
+Wariant ID = 884948, model przewiduje klasę = M
+Top 5 cech wg |SHAP| (wartość SHAP, dodatnia ⇒ pcha w kierunku 'M', ujemna ⇒ pcha w kierunku 'B'):
+                feature  shap_value
+0  concave points_worst    1.585548
+1               area_se    1.116533
+2   concave points_mean    1.062353
+3            area_worst    0.888254
+4       perimeter_worst    0.830814
+
+--------------------------------------------------------------------------------
+
+Wariant ID = 901303, model przewiduje klasę = B
+Top 5 cech wg |SHAP| (wartość SHAP, dodatnia ⇒ pcha w kierunku 'M', ujemna ⇒ pcha w kierunku 'B'):
+               feature  shap_value
+0        texture_worst   -2.010047
+1              area_se   -0.989993
+2            area_mean    0.987605
+3         radius_worst    0.929892
+4  concave points_mean    0.760537
+
+--------------------------------------------------------------------------------

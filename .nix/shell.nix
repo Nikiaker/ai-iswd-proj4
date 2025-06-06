@@ -10,5 +10,7 @@ pkgs.mkShell {
     python3Packages.scikit-learn
     python3Packages.xgboost
     python3Packages.graphviz
+    python3Packages.tabulate
+    python3Packages.shap
   ];
 }

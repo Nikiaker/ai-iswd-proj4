@@ -1,0 +1,30 @@
+id: 865137
+True Diagnosis: B
+Predicted Diagnosis: B
+Probability: 0.00139999995008111
+Top Features:
+  texture_worst: -1.783400058746338
+  area_se: -0.9537000060081482
+  area_worst: -0.8964999914169312
+  concave points_worst: -0.8230000138282776
+  concave points_mean: -0.8152999877929688
+id: 884948
+True Diagnosis: M
+Predicted Diagnosis: M
+Probability: 0.9998000264167786
+Top Features:
+  concave points_worst: 1.5855000019073486
+  area_se: 1.1165000200271606
+  concave points_mean: 1.062399983406067
+  area_worst: 0.8883000016212463
+  perimeter_worst: 0.8307999968528748
+id: 901303
+True Diagnosis: B
+Predicted Diagnosis: B
+Probability: 0.026799999177455902
+Top Features:
+  texture_worst: -2.009999990463257
+  area_se: -0.9900000095367432
+  area_mean: 0.9876000285148621
+  radius_worst: 0.9298999905586243
+  concave points_mean: 0.7605000138282776
