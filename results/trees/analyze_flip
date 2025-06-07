@@ -1,0 +1,4 @@
+    id              feature  original_value  flip_value  pred_before  pred_after
+865137        texture_worst        15.97000 1604.985000     0.001450    0.190699
+884948 concave points_worst         0.21050  -21.218400     0.999753    0.998680
+901303  concave points_mean         0.05397    5.423985     0.026840    0.040388

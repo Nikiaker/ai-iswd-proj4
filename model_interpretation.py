@@ -45,7 +45,7 @@ features_to_plot = [
     'concave points_mean'
 ]
 
-fig, ax = plt.subplots(nrows=3, ncols=2, figsize=(12, 16))
+fig, ax = plt.subplots(nrows=3, ncols=2, figsize=(6, 8))
 ax = ax.flatten()
 
 for i, feat in enumerate(features_to_plot):

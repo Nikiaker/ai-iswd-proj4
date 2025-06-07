@@ -41,7 +41,7 @@ def find_flip_threshold(model, base_sample, feature, direction, num_steps=500):
     if direction > 0:
         end_value = original_value * (100 + 0.5)   # do +50% (można zmodyfikować)
     else:
-        end_value = original_value * (100 - 0.8)   # do –80% (można zmodyfikować)
+        end_value = original_value * (-100 - 0.8)   # do –80% (można zmodyfikować)
     # Generujemy siatkę num_steps półotwartych przedziałów
     candidate_values = np.linspace(original_value, end_value, num_steps)
     # Próbkujemy kolejno i sprawdzamy, kiedy model przewidzi inną klasę
